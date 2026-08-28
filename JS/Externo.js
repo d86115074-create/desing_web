@@ -1,12 +1,10 @@
-var nasc = 2008;
-let nome = "Diego";
-const viva = true;
-let altura = 1.73;
+let nasc = prompt("Digite sua data de nascimento:");
+nasc = parseInt(nasc);
+
+let viva = confirm("Você está vivo? clique em OK");
 
 if (viva) {
-    let saudacao = "olá, " + nome + "!";
-    let mensagem = `altura: ${altura}m, Idade: ${2026-nasc}`;
-    alert(saudacao + "\n" + mensagem);
+    alert(`Voce tem ${2026-nasc} anos`);
 } else {
-    alert("Você não está vivo!");
+    alert("Que pena, você não está vivo");
 }
