@@ -1,10 +1,18 @@
-let nasc = prompt("Digite sua data de nascimento:");
-nasc = parseInt(nasc);
+function calcularIdade() {
 
-let viva = confirm("Você está vivo? clique em OK");
+    let nasc = prompt("Digite sua data de nascimento:");
 
-if (viva) {
-    alert(`Voce tem ${2026-nasc} anos`);
-} else {
-    alert("Que pena, você não está vivo");
+    nasc = parseInt(nasc);
+
+    let viva = confirm("Você está vivo? Clique em OK");
+
+    if (viva) {
+
+        alert(`Você tem ${2026 - nasc} anos`);
+
+    } else {
+
+        alert("Operação cancelada");
+
+    }
 }
