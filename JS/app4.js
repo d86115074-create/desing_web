@@ -1,3 +1,5 @@
+function Semana() {
+
 let dia = prompt("Escolha um dia da semana \n 1 - Domingo \n 2 - Segunda-feira \n 3 - Terça-feira \n 4 - Quarta-feira \n 5 - Quinta-feira \n 6 - Sexta-feira \n 7 - Sábado");
 
 switch (dia) {
@@ -24,4 +26,6 @@ switch (dia) {
         break;
     default:
         alert("Opção inválida");
+}
+
 }
