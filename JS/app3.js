@@ -1,3 +1,5 @@
+function ParOuImpar() { 
+
 let num = Number(prompt("Digite um número:"));
 
     if (num % 2 != 0) {
@@ -7,3 +9,4 @@ let num = Number(prompt("Digite um número:"));
     }else{
         alert(`O número ${num} é par`);
     }
+}
